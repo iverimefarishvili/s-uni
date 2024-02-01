@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #3652AD;
+    --primary: #000080;
     --secondary: #757575;
     --light: #F3F6F8;
     --dark: #0C2B4B;
@@ -83,7 +83,7 @@
     width: 80vw;
     height: 30px;
     top: 0;
-    background-color: #3652AD;
+    background-color: #000080;
     border-bottom-left-radius: 8px;
     color: white;
     justify-content: space-between;
@@ -124,6 +124,14 @@
 
 .info-bar .info i {
     margin-right: 5px !important;
+}
+
+.info-bar .info .icon {
+    margin-right: 8px !important;
+}
+
+.carousel-item {
+    max-height: 600px;
 }
 
 #navbarCollapse {
